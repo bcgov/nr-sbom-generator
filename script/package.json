@@ -1,0 +1,27 @@
+{
+  "name": "sbom-generation-script",
+  "version": "1.0.0",
+  "description": "This package contains script to Read through all the repo that starts with 'nr-' under bcgov and process them, finally prepare an array of json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcgov/nr-sbom-generator.git"
+  },
+  "keywords": [
+    "SBOM",
+    "NRM"
+  ],
+  "author": "nr-arch@github",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcgov/nr-sbom-generator/issues"
+  },
+  "homepage": "https://github.com/bcgov/nr-sbom-generator#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "js-yaml": "^4.1.0"
+  }
+}
